@@ -1,0 +1,74 @@
+<!-- Week3-Part1 -->
+<!DOCTYPE html>
+<html lang="en">
+<title>Week3-Assignments</title>
+<meta charset="UTF-8">
+
+</html>
+
+<body>
+    <form action="" method="get">
+        <!-- Start Assignment-1 -->
+        <div>
+            <label for="username">Username</label><br>
+            <input name="username" type="text" id="username" minlength="5" maxlength="20" required>
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" value="o@o.com" readonly>
+        </div>
+        <div>
+            <input type="hidden" name="token" value="b92f1fc2fce391ad7af633723afd3055">
+        </div>
+        <!-- End Assignment-1 -->
+        <hr>
+        <!-- Start Assignment-2 -->
+        <label>Choose Your Programming Skill</label><BR>
+        <input checked type="checkbox" name="skill" value="Logical Thinking">
+        <label>Logical Thinking</label><BR>
+        <input type="checkbox" name="skill" value="Planning">
+        <label>Planning</label><BR>
+        <input type="checkbox" name="skill" value="Analysis">
+        <label>Analysis</label><BR>
+        <input type="checkbox" name="skill" value="Problem Solving">
+        <label>Problem Solving</label><BR>
+        <br>
+        <div>
+            <input type="radio" name="job" id="Front-End Developer" value="Front-End Developer" checked />
+            <label for="Front-End Developer">Front-End Developer</label>
+        </div>
+        <div>
+            <input type="radio" name="job" id="Back-End Developer" value="Back-End Developer" />
+            <label for="Back-End Developer">Back-End Developer</label>
+        </div>
+        <div>
+            <input type="radio" name="job" id="Business Analyst" value="Back-End Developer" />
+            <label for="Business Analyst">Business Analyst</label>
+        </div>
+        <!-- End Assignment-2 -->
+        <br>
+        <!-- Start Assignment-3 -->
+        <div>
+            Choose Book:
+            <select>
+                <optgroup label="PHP">
+                    <option>v5.0</option>
+                    <option>v7.0</option>
+                    <option>v8.0</option>
+                <optgroup label="Python">
+                    <option>v2.0</option>
+                    <option>v3.0</option>
+                    <option>v3.9</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <textarea placeholder="Write Here Why You Want To Learn Programming" cols="30" rows="10"></textarea>
+        </div>
+        <!-- End Assignment-3 -->
+        <div>
+            <input type="reset" value="Empty" />
+            <input type="submit" value="Send" />
+        </div>
+    </form>
+</body>
